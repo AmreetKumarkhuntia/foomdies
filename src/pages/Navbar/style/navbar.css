@@ -44,6 +44,19 @@ header ul li {
   list-style: none;
 }
 
+header ul li a {
+  text-decoration: none;
+  color: #868686;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+header ul li a:hover {
+  color: #821d30;
+}
+
 header .navigation_components {
   font-family: 'Oswald', sans-serif;
   font-style: normal;

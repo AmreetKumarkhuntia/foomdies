@@ -1,0 +1,50 @@
+.Search{
+    font-family: 'Oswald', sans-serif;
+    padding: 5%;
+    .menu{
+        display: flex;
+        align-items: center;
+
+        input{
+            font-family: 'Oswald', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #821d30;
+
+            height: 30px;
+            width: 300px;
+            border-radius: 30px;
+            border: none;
+
+            background-color: #f7d6d0a8;
+
+            filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+        }
+        input::placeholder{
+            color: #821d3069;
+        }
+        input:focus{
+            border: none;
+        }
+        button{
+            font-family: 'Oswald', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #F7D6D0;
+            cursor: pointer;
+
+            height: 30px;
+            width: 150px;
+            border-radius: 30px;
+            border: none;
+            margin-left: 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+
+            filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+        }
+    }
+}

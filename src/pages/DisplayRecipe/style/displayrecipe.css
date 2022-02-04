@@ -1,0 +1,128 @@
+.recipes {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 40px;
+}
+
+.recipes .start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 60px;
+  height: auto;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.recipes .border_start {
+  border: 0px;
+  border-top: 2px solid;
+  margin: auto;
+  width: 200px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+}
+
+.recipes .single_recipe {
+  padding-top: 2%;
+}
+
+.recipes .single_recipe .title {
+  color: #fb6090;
+  font-size: 18px;
+}
+
+.recipes .single_recipe .title h4 {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin: 10px 0px 10px 0px;
+}
+
+.recipes .single_recipe .subtitle {
+  color: black;
+}
+
+.recipes .single_recipe .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recipes .single_recipe .main img {
+  height: 250px;
+  -webkit-filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+          filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+}
+
+.recipes .single_recipe .main .description h1 {
+  font-size: 36px;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 5px;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.recipes .single_recipe .secondary a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #F7D6D0;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+}
+
+.recipes .single_recipe hr {
+  margin-top: 25px;
+}
+
+.recipes .end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 60px;
+  height: auto;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=displayrecipe.css.map */

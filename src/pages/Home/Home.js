@@ -5,7 +5,7 @@ const Home = () => {
         <div className='Home'>
             <div className='description'>
                 <h1>WELCOME TO FOOMDIES !!!</h1> 
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                <h5>One stop for all your hunger.</h5>
                 <button>
                     SEARCH
                 </button>

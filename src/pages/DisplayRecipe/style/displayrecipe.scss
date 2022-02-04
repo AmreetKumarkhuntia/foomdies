@@ -1,0 +1,120 @@
+.recipes{
+    font-family: 'Oswald', sans-serif;
+    
+    margin-top: 40px;
+
+    .start{
+        display: flex;
+        justify-content: center;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 60px;
+
+        height: auto;
+        background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+    }
+    .border_start{
+        border: 0px;
+        border-top: 2px solid;
+        margin: auto;
+        width: 200px;
+
+        border-image-slice: 1;
+
+        border-image-source: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+    }
+
+    .single_recipe{
+        padding-top: 2%;
+        .title{
+            color: #fb6090;
+            font-size: 18px;
+
+            h4{
+                font-weight: 400;
+                font-size: 22px;
+                letter-spacing: 2px;
+                margin: 10px 0px 10px 0px;
+            }
+        }
+
+        .subtitle{
+            color: black;
+        }
+        
+        .main{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            img{
+                height: 250px;
+
+                filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+            }
+
+            .description{
+                h1{
+                    font-size: 36px;
+    
+                    height: auto;
+    
+                    margin: 0%;
+                    padding: 0%;
+                    margin-bottom: 5px;
+                    
+                    background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+    
+                }
+
+            }
+        }
+
+        .secondary{
+            a{
+                text-decoration: none;
+                font-size: 16px;
+                color: #F7D6D0;
+                cursor: pointer;
+
+                width: 130px;
+                height: 30px;
+                border: none;
+                border-radius: 15px;
+                margin-top: 20px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+            }
+        }
+    
+        hr{
+            margin-top: 25px;
+        }
+    }
+
+    .end{
+        display: flex;
+        justify-content: center;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 60px;
+
+        height: auto;
+        background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}

@@ -1,0 +1,73 @@
+.Search {
+  font-family: 'Oswald', sans-serif;
+  padding: 5%;
+}
+
+.Search .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Search .menu input {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #821d30;
+  height: 30px;
+  width: 300px;
+  border-radius: 30px;
+  border: none;
+  background-color: #f7d6d0a8;
+  -webkit-filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+          filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+}
+
+.Search .menu input::-webkit-input-placeholder {
+  color: #821d3069;
+}
+
+.Search .menu input:-ms-input-placeholder {
+  color: #821d3069;
+}
+
+.Search .menu input::-ms-input-placeholder {
+  color: #821d3069;
+}
+
+.Search .menu input::placeholder {
+  color: #821d3069;
+}
+
+.Search .menu input:focus {
+  border: none;
+}
+
+.Search .menu button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #F7D6D0;
+  cursor: pointer;
+  height: 30px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+  -webkit-filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+          filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.274));
+}
+/*# sourceMappingURL=search.css.map */
