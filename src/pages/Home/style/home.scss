@@ -1,0 +1,68 @@
+.Home{
+    font-family: 'Oswald', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    .description{
+        height: 100vh;
+        width: 57%;
+        padding: 4%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        font-family: 'Roboto Condensed', sans-serif;
+
+        h1{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 64px;
+            margin: 0px;
+
+            height: auto;
+            background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h5{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        button{
+            font-size: 16px;
+            color: #F7D6D0;
+            cursor: pointer;
+
+            width: 130px;
+            height: 30px;
+            border: none;
+            border-radius: 15px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+        }
+    }
+    .image{
+        width: 35%;
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+
+        img{
+            transform: translateX(-20px);
+            height: 600px;
+            filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+        }
+    }
+}

@@ -1,0 +1,80 @@
+header {
+  background-color: #EFEFEF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  display: block;
+  width: 21%;
+  height: 100vh;
+  padding: 2%;
+  z-index: 100;
+}
+
+header .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .heading h2 {
+  width: auto;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0px;
+}
+
+header .heading img {
+  margin: auto;
+  height: 60px;
+  margin-right: 0px;
+}
+
+header ul {
+  padding: 0px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header .navigation_components {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 44px;
+  color: #868686;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+header hr {
+  border-top: 2px solid #A8A8A8;
+}
+
+header .contact_components {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  height: 40%;
+  color: #A8A8A8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+/*# sourceMappingURL=navbar.css.map */

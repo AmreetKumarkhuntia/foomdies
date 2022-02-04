@@ -1,0 +1,88 @@
+.Home {
+  font-family: 'Oswald', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Home .description {
+  height: 100vh;
+  width: 57%;
+  padding: 4%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Home .description h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  margin: 0px;
+  height: auto;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Home .description h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.Home .description button {
+  font-size: 16px;
+  color: #F7D6D0;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+}
+
+.Home .image {
+  width: 35%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Home .image img {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  height: 600px;
+  -webkit-filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+          filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+}
+/*# sourceMappingURL=home.css.map */
