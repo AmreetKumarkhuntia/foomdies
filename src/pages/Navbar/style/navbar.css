@@ -90,4 +90,8 @@ header .contact_components {
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
+
+header .contact_components a {
+  color: #A8A8A8;
+}
 /*# sourceMappingURL=navbar.css.map */

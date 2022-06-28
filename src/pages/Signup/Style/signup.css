@@ -1,0 +1,99 @@
+.Form_Background {
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(204, 204, 204, 0.29);
+  height: 100%;
+  width: 100%;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  font-family: 'Oswald', sans-serif;
+  color: #5c5c5c;
+}
+
+.Form_Background .form {
+  background-color: #fcfcfc;
+  width: 40%;
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.Form_Background .form h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px;
+  height: auto;
+  display: inline-block;
+  background: linear-gradient(91.11deg, #dc3150 0.54%, #ff84ab 69.62%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Form_Background .form .hr1 {
+  margin: auto;
+  margin-top: 5px;
+  width: 50px;
+  height: 10px;
+  display: block;
+  border-top: 2px solid #cdcdcd;
+}
+
+.Form_Background .form form {
+  font-size: 16px;
+}
+
+.Form_Background .form form button {
+  font-size: 16px;
+  color: #F7D6D0;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  border: none;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+}
+
+.Form_Background .form .existing {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.Form_Background .form .existing a {
+  text-decoration: none;
+  color: #5c5c5c;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.Form_Background .form .existing a:hover {
+  color: #FB6090;
+}
+/*# sourceMappingURL=signup.css.map */

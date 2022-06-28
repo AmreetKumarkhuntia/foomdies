@@ -1,0 +1,97 @@
+.Form_Background{
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(204, 204, 204, 0.29);
+
+    height: 100%;
+    width: 100%;
+
+    filter: blur(0px);
+
+    font-family: 'Oswald', sans-serif;
+    color: #5c5c5c;
+
+    .form{
+        background-color: rgb(252, 252, 252);
+
+        width: 40%;
+
+        padding: 4%;
+
+        border-radius: 10px;
+
+        h1{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            font-family: 'Roboto Condensed', sans-serif;
+
+            margin: 0px;
+            height: auto;
+
+            display: inline-block;
+
+            background: linear-gradient(91.11deg, #dc3150 0.54%, #ff84ab 69.62%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+        .hr1{
+            margin: auto;
+            margin-top: 5px;
+            width: 50px;
+            height: 10px;
+
+            display: block;
+
+            border-top: 2px solid rgb(205, 205, 205);
+        }
+        .form2{
+            
+            font-size: 16px;
+            button{
+                font-size: 16px;
+                color: #F7D6D0;
+
+                cursor: pointer;
+                width: 130px;
+                height: 30px;
+                margin: auto;
+                margin-top: 15px;
+
+                border: none;
+                border-radius: 15px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+            }
+        }
+        .existing{
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #5c5c5c;
+                transition-property: all;
+                transition-duration: 500ms;
+            }
+            a:hover{
+                color: #FB6090;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,104 @@
+.profile{   
+    padding: 4%;
+
+    h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    margin: 0px;
+    height: auto;
+    
+    display: inline-block;
+    
+    background: linear-gradient(91.11deg, #dc3150 0.54%, #ff84ab 69.62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+        .hr1{
+            margin: auto;
+            margin-top: 5px;
+            width: 90px;
+            height: 0px;
+            display: block;
+            border-top: 2px solid #cdcdcd
+        }
+    }
+
+    h2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        font-family: 'Roboto Condensed', sans-serif;
+    
+        margin: 0px;
+        margin-bottom: 20px;
+        height: auto;
+        
+        display: inline-block;
+            .hr1{
+                margin: auto;
+                margin-top: 5px;
+                width: 90px;
+                height: 0px;
+                display: block;
+                border-top: 2px solid #cdcdcd
+            }
+        }
+    
+    .user{
+        font-family: 'Oswald', sans-serif;
+        font-size:  16px;
+        
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .left{
+            height: 180px;
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            img{
+                height: 140px;
+                filter: drop-shadow(-1px 8px 4px rgba(0, 0, 0, 0.342));
+            }
+        }
+    }
+
+    .color_pink{
+        color: #fb6090;
+    }
+
+    .reset{
+
+        font-family: 'Oswald', sans-serif;
+        color: #5c5c5c;
+
+        .form{
+
+            button{
+                font-size: 16px;
+                color: #F7D6D0;
+                cursor: pointer;
+                width: 200px;
+                height: 30px;
+                margin: auto;
+                margin-top: 15px;
+                border: none;
+                border-radius: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(91.11deg, #821D30 0.54%, #FB6090 69.62%);
+            }
+        }
+
+    }
+
+}

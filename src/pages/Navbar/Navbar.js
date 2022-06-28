@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import './style/navbar.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
+
     return (
         <>
             <header>
@@ -16,13 +17,15 @@ const Navbar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/'>About</Link></li>
                     <li><Link to='/search'>Recpies Page</Link></li>
-                    <li><Link to='/'>API</Link></li>
-                    <li><Link to='/'>Github</Link></li>
+                    { props.loggedin?'':<li><Link to='/login'>Login</Link></li>}
+                    { props.loggedin?'':<li><Link to='/signup'>Signup</Link></li>}
+                    { props.loggedin?<li><Link to='/profile'>Profile</Link></li>:''}
                 </ul>
                 <hr />
                 <ul className='contact_components'>
-                    <li>Contact</li>
-                    <li>Cuttack</li>
+                    <li><Link to='/'>Contact</Link></li>
+                    <li><Link to='/'>API</Link></li>
+                    <li><Link to='/'>Github</Link></li>
                 </ul>
             </header>
         </>
